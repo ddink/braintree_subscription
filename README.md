@@ -1,6 +1,6 @@
 # Braintree Subscription
 
-This is Rails application that integrates Braintree for the recurring billing of a customer by way of 
+This is a Rails application that integrates Braintree for the recurring billing of a customer by way of 
 a subscription plan. While this app is a very bare-bones example of the many possibilities available 
 with the Rails framework and a Braintree account, it illustrates some of the fundamentals of working with 
 Braintree's modules.
