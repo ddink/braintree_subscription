@@ -5,6 +5,8 @@ Rails.application.routes.draw do
     get :confirmation, on: :collection
   end
 
+  resources :subscriptions, only: [:create]
+
   get "/sign_in" => "sessions#new", as: :sign_in
   post "/sign_in" => "sesssions#create"
   get "/sign_out" => "sessions#destroy", as: :sign_out
